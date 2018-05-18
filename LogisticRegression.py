@@ -2,6 +2,10 @@
 '''
 
 y = np.exp(b0 + (b1 * x) ) / ( 1 + np.exp(b0 + b1 * x ) )
+
+or
+
+y = 1 / ( 1 + np.exp( -(b0 + b1 * x) ) )
 	
 '''
 from random import randrange
